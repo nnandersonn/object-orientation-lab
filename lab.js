@@ -168,6 +168,7 @@ function ingredients(obj){
   let {carb: varCarb, fat: varFat, protein: varProtein } = obj
   var arr = []
   arr.push(varCarb, varFat, varProtein)
+  return arr
   console.log(arr)
 }
 
